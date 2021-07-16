@@ -16,13 +16,8 @@
 [[main]]
   parent = "Links"
   name = "LinkedIn"
-  url = "https://www.linkedin.com/"
+  url = "https://www.linkedin.com/in/jakub-waliszewski/"
 [[main]]
   parent = "Links"
   name = "Twitter"
-  url = "https://twitter.com/"
-
-[[main]]
-  name = "Sobre"
-  url = "about/"
-  weight = -107
+  url = "https://twitter.com/__JakobW__"
