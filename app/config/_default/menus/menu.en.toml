@@ -5,13 +5,13 @@
 
  [[main]]
   name = "Conference"
-  url = "conference/"
+  url = "post/conference/"
   weight = -109
  
 
 [[main]]
   name = "Archives"
-  url = "post/rich-content/"
+  url = "post/archives/"
   weight = -109
 
 # Submenus are done this way: parent -> identifier
