@@ -2,7 +2,7 @@
 
 Create a static website with [Hugo](https://gohugo.io/), [Azure Static Web Apps](https://docs.microsoft.com/en-us/azure/static-web-apps/) and optionally [Netlify CMS](https://www.netlifycms.org/). For an example see [www.how2code.info](https://www.how2code.info).
 
-* *Hugo* is a static website generator that has hundreds of free [themes](https://themes.gohugo.io/) available. This quickstart template uses the [All4forCloud](https://themes.gohugo.io/hugo-All4forCloud/) theme. Thanks Chip Zoller and Dan Weru for your theme!
+* *Hugo* is a static website generator that has hundreds of free [themes](https://themes.gohugo.io/) available. This quickstart template uses the [Clarity](https://themes.gohugo.io/hugo-clarity/) theme. Thanks Chip Zoller and Dan Weru for your theme!
 * *Azure Static Web Apps* is a feature-rich hosting service for static web apps. It offers custom domains, CDN, automatic certificates, API hosting, easy CI/CD setup, and many more benefits.
 * *Netlify CMS* is a headless CMS (a content editor) that is compatible with most static website generators. It lives and stores content in your website GitHub repository. Setup is very easy.
 
@@ -65,7 +65,7 @@ Note that the Admin-button at the bottom will not work until you have configured
 
 ## 7. Edit your website
 
-See the [Hugo All4forCloud](https://github.com/chipzoller/hugo-All4forCloud) documentation for instructions on how to customize your website.
+See the [Hugo Clarity](https://github.com/chipzoller/hugo-clarity) documentation for instructions on how to customize your website.
 
 You can edit the files under *app/content*. Instead of editing them manually, you can use Netlify CMS. There is an Admin-button in the page footer that will take you to Netlify CMS.
 

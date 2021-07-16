@@ -1,8 +1,8 @@
-name = "All4forCloud"
+name = "Clarity"
 license = "MIT"
-licenselink = "https://github.com/chipzoller/hugo-All4forCloud/blob/master/LICENSE.md"
-description = "A theme based on VMware's All4forCloud Design System for publishing technical blogs with Hugo."
-homepage = "https://github.com/chipzoller/hugo-All4forCloud"
+licenselink = "https://github.com/chipzoller/hugo-clarity/blob/master/LICENSE.md"
+description = "A theme based on VMware's Clarity Design System for publishing technical blogs with Hugo."
+homepage = "https://github.com/chipzoller/hugo-clarity"
 tags = ["blog", "technical", "simple", "dark", "syntax highlighting"]
 features = ["blog", "technical", "simple", "dark", "syntax highlighting"]
 min_version = "0.63.0"
