@@ -1,20 +1,20 @@
-# Hugo Clarity
+# Hugo All4forCloud
 
-A technology-minded theme for Hugo based on VMware's open-source [Clarity Design System](https://clarity.design/) featuring rich code support, dark/light mode, mobile support, and much more. See [a live demo at __neonmirrors.net__](https://neonmirrors.net/).
+A technology-minded theme for Hugo based on VMware's open-source [All4forCloud Design System](https://All4forCloud.design/) featuring rich code support, dark/light mode, mobile support, and much more. See [a live demo at __neonmirrors.net__](https://neonmirrors.net/).
 
-![Clarity Hugo Theme](https://github.com/chipzoller/hugo-clarity/blob/master/images/screenshot.png)
+![All4forCloud Hugo Theme](https://github.com/chipzoller/hugo-All4forCloud/blob/master/images/screenshot.png)
 
 ## Preview on Desktop
 
 | Light Mode | Dark Mode |
 |---| --- |
-| ![Clarity Hugo Theme desktop light](https://github.com/chipzoller/hugo-clarity/blob/master/images/screenshot.png) | ![Clarity Hugo Theme desktop dark](https://github.com/chipzoller/hugo-clarity/blob/master/images/screenshot-darkmode.png) |
+| ![All4forCloud Hugo Theme desktop light](https://github.com/chipzoller/hugo-All4forCloud/blob/master/images/screenshot.png) | ![All4forCloud Hugo Theme desktop dark](https://github.com/chipzoller/hugo-All4forCloud/blob/master/images/screenshot-darkmode.png) |
 
 ## Preview on Mobile
 
 | Light Mode | Dark Mode |
 |---| --- |
-| ![Clarity Hugo Theme mobile light](https://github.com/chipzoller/hugo-clarity/blob/master/images/screenshot-mobile.png) | ![Clarity Hugo Theme mobile dark](https://github.com/chipzoller/hugo-clarity/blob/master/images/screenshot-mobile-darkmode.png) |
+| ![All4forCloud Hugo Theme mobile light](https://github.com/chipzoller/hugo-All4forCloud/blob/master/images/screenshot-mobile.png) | ![All4forCloud Hugo Theme mobile dark](https://github.com/chipzoller/hugo-All4forCloud/blob/master/images/screenshot-mobile-darkmode.png) |
 
 ## Table of Contents
 
@@ -62,7 +62,7 @@ A technology-minded theme for Hugo based on VMware's open-source [Clarity Design
 
     To put it all in context, here is a preview showing all functionality.
 
-    ![code block functions](https://github.com/chipzoller/hugo-clarity/blob/master/images/syntax-block.gif)
+    ![code block functions](https://github.com/chipzoller/hugo-All4forCloud/blob/master/images/syntax-block.gif)
 
 ## Prerequisites
 
@@ -70,7 +70,7 @@ Firstly, __ensure you have installed the [extended version of Hugo](https://gith
 
 ## Getting up and running
 
-Read the [prerequisites](#prerequisites) above and verify you're using the extended version of Hugo. There are at least two ways of quickly getting started with Hugo and the VMware Clarity theme:
+Read the [prerequisites](#prerequisites) above and verify you're using the extended version of Hugo. There are at least two ways of quickly getting started with Hugo and the VMware All4forCloud theme:
 
 ### Option 1 (recommended)
 
@@ -80,8 +80,8 @@ Generate a new Hugo site and add this theme as a Git submodule inside your theme
 hugo new site yourSiteName
 cd yourSiteName
 git init
-git submodule add https://github.com/chipzoller/hugo-clarity themes/hugo-clarity
-cp -a themes/hugo-clarity/exampleSite/* .
+git submodule add https://github.com/chipzoller/hugo-All4forCloud themes/hugo-All4forCloud
+cp -a themes/hugo-All4forCloud/exampleSite/* .
 ```
 
 Then run
@@ -97,8 +97,8 @@ Hurray!
 You can run your site directly from the `exampleSite`. To do so, use the following commands:
 
 ```bash
-git clone https://github.com/chipzoller/hugo-clarity
-cd hugo-clarity/exampleSite/
+git clone https://github.com/chipzoller/hugo-All4forCloud
+cd hugo-All4forCloud/exampleSite/
 hugo server --themesDir ../..
 ```
 
@@ -111,14 +111,14 @@ This option enables you to load this theme as a hugo module. It arguably require
 Ensure you have `go` binary [installed on your machine](https://golang.org/doc/install) Note: Mac users: ```brew install go```.
 
 ```bash
-git clone https://github.com/chipzoller/hugo-clarity.git clarity
-cd clarity/exampleSite/
+git clone https://github.com/chipzoller/hugo-All4forCloud.git All4forCloud
+cd All4forCloud/exampleSite/
 hugo mod init my-site
 cd ..
 cp -a exampleSite/* .
 ```
 
-Open config.toml file in your code editor, replace `theme = "hugo-clarity"` with `theme = ["github.com/chipzoller/hugo-clarity"]` or just `theme = "github.com/chipzoller/hugo-clarity"`.
+Open config.toml file in your code editor, replace `theme = "hugo-All4forCloud"` with `theme = ["github.com/chipzoller/hugo-All4forCloud"]` or just `theme = "github.com/chipzoller/hugo-All4forCloud"`.
 
 Hurray you can now run
 
@@ -212,7 +212,7 @@ These options can be set from a page [frontmatter](https://gohugo.io/content-man
 
 #### Main Menu
 
-To add, remove, or reorganize top menu items, [edit the files here](https://github.com/chipzoller/hugo-clarity/tree/master/exampleSite/config/_default/menus). Specifically look for items with `[[main]]`.
+To add, remove, or reorganize top menu items, [edit the files here](https://github.com/chipzoller/hugo-All4forCloud/tree/master/exampleSite/config/_default/menus). Specifically look for items with `[[main]]`.
 
 If you prefer the more [traditional approach](https://gohugo.io/content-management/menus/#readout), delete `content\config` folder and enter a [main menu entry](https://gohugo.io/content-management/menus/#add-non-content-entries-to-a-menut) inside the `config.toml` file
 
@@ -277,7 +277,7 @@ numberOfTagsShown = 14 # Applies for all other default & custom taxonomies. e.g 
 
 #### Number of tags example
 
-![Tags](https://github.com/chipzoller/hugo-clarity/blob/master/images/tags.png)
+![Tags](https://github.com/chipzoller/hugo-All4forCloud/blob/master/images/tags.png)
 
 ### Images
 
@@ -297,7 +297,7 @@ In this example, `figurePositionLabel` is set to "Figure" in `config.toml` and t
 ![Antrea Kubernetes nodes prepared](./images/image-figure.png)
 ```
 
-![Here is my alt text for this image.](https://github.com/chipzoller/hugo-clarity/blob/master/images/image-figure.png)
+![Here is my alt text for this image.](https://github.com/chipzoller/hugo-All4forCloud/blob/master/images/image-figure.png)
 
 > NOTE: Alt text with double quotes will produce broken HTML per limitations with Markdown. It is recommended to omit any quotations from your alt text.
 
@@ -316,7 +316,7 @@ To make a blog image inline, append `:inline` to its alt text. Typically, inline
 ![some alt text:inline](someOtherImageUrl)
 ```
 
-![Inline image example](https://github.com/chipzoller/hugo-clarity/blob/master/images/image-inline.png)
+![Inline image example](https://github.com/chipzoller/hugo-All4forCloud/blob/master/images/image-inline.png)
 
 #### Float images to the left
 
@@ -459,7 +459,7 @@ Each article can optionally have a table of contents (TOC) generated for it base
 
 #### Table of contents (TOC) example
 
-![Article table of contents](https://github.com/chipzoller/hugo-clarity/blob/master/images/article-toc.png)
+![Article table of contents](https://github.com/chipzoller/hugo-All4forCloud/blob/master/images/article-toc.png)
 
 ### Custom CSS and JS
 
@@ -467,11 +467,11 @@ To minimize HTTP requests per page, we would recommend loading CSS styles and Ja
 
 Going by the above 👆🏻 reason, we recommend adding custom CSS and JS via these files:
 
-1. [`_override.sass`](https://github.com/chipzoller/hugo-clarity/blob/master/assets/sass/_override.sass).
+1. [`_override.sass`](https://github.com/chipzoller/hugo-All4forCloud/blob/master/assets/sass/_override.sass).
     This file should only be used to override sass & css variables e.g theme colors
-2. [`_custom.sass`](https://github.com/chipzoller/hugo-clarity/blob/master/assets/sass/_custom.sass).
+2. [`_custom.sass`](https://github.com/chipzoller/hugo-All4forCloud/blob/master/assets/sass/_custom.sass).
     This file should only be used to override everything else except sass & css variables.
-3. [`custom.js`](https://github.com/chipzoller/hugo-clarity/blob/master/assets/js/custom.js).
+3. [`custom.js`](https://github.com/chipzoller/hugo-All4forCloud/blob/master/assets/js/custom.js).
 
 > __Pro Tip__: Ensure that your changes are git trackable by creating these  files outside the theme directory. That is, at the root level of your site's directory. see tree below
 
@@ -511,7 +511,7 @@ customJS = ["js/custom.js"] # Include custom JS files
 
 ### Forcing light or dark mode
 
-By default, sites authored using Clarity will load in the browser with the user's system-wide settings. I.e., if the underlying OS is set to dark mode, the site will automatically load in dark mode. Regardless of the default mode, a UI control switch exists to override the theme mode at the user's discretion.
+By default, sites authored using All4forCloud will load in the browser with the user's system-wide settings. I.e., if the underlying OS is set to dark mode, the site will automatically load in dark mode. Regardless of the default mode, a UI control switch exists to override the theme mode at the user's discretion.
 
 In order to override this behavior and force one mode or another, add either `enforceLightMode` or `enforceDarkMode` to your `config.toml` file. If neither value is present, add it.
 
@@ -558,7 +558,7 @@ To change the values of translatable text, such as `read_more` or `copyright`, e
 
 ### Hooks
 
-Clarity provides some hooks for adding code on a page.
+All4forCloud provides some hooks for adding code on a page.
 
 If you need to add some code (CSS import, HTML meta or similar) to the head section on every page, add a partial to your project:
 
@@ -574,9 +574,9 @@ layouts/partials/hooks/body-end.html
 
 ### Comments
 
-Clarity supports Hugo built-in Disqus partial. You can enable Disqus simply by setting [`disqusShortname`](https://gohugo.io/templates/internal/#configure-disqus) in your [configuration file](https://github.com/chipzoller/hugo-clarity/blob/88f6cf4ac37c12990983b92d19842524555c23d3/exampleSite/config/config.toml#L11).
+All4forCloud supports Hugo built-in Disqus partial. You can enable Disqus simply by setting [`disqusShortname`](https://gohugo.io/templates/internal/#configure-disqus) in your [configuration file](https://github.com/chipzoller/hugo-All4forCloud/blob/88f6cf4ac37c12990983b92d19842524555c23d3/exampleSite/config/config.toml#L11).
 
-You can also override [layouts/partials/comments.html](https://github.com/chipzoller/hugo-clarity/blob/master/layouts/partials/comments.html) to take advante of [disqus comments Alternatives](https://gohugo.io/content-management/comments/#comments-alternatives) for details.
+You can also override [layouts/partials/comments.html](https://github.com/chipzoller/hugo-All4forCloud/blob/master/layouts/partials/comments.html) to take advante of [disqus comments Alternatives](https://gohugo.io/content-management/comments/#comments-alternatives) for details.
 
 > Please leave `#disqusShortname = ""` commented out if you decide to use other comments tools
 
@@ -588,15 +588,15 @@ You can override these setting from each post individually. For example, you may
 
 ### Math notation
 
-Clarity uses [KaTeX](https://katex.org/) for math type setting if `enableMathNotation` is set to `true` in global or page parameters (the latter takes precedence).
+All4forCloud uses [KaTeX](https://katex.org/) for math type setting if `enableMathNotation` is set to `true` in global or page parameters (the latter takes precedence).
 
 Also see [supported TeX commands in KaTeX](https://katex.org/docs/supported.html).
 
-If you want chemical typesetting provided by the [`mhchem`](https://mhchem.github.io/MathJax-mhchem/) extension, first copy `[site]/themes/clarity/layouts/partials/math.html` to `[site]/layouts/partials/math.html`:
+If you want chemical typesetting provided by the [`mhchem`](https://mhchem.github.io/MathJax-mhchem/) extension, first copy `[site]/themes/All4forCloud/layouts/partials/math.html` to `[site]/layouts/partials/math.html`:
 
 ```bash
 # cd /path/to/site
-mkdir -p layouts/partials && cp themes/clarity/layouts/partials/math.html layouts/partials/math.html
+mkdir -p layouts/partials && cp themes/All4forCloud/layouts/partials/math.html layouts/partials/math.html
 ```
 
 Then add the corresponding line as its [README](https://github.com/KaTeX/KaTeX/tree/master/contrib/mhchem) suggested (without the `+` sign):
@@ -625,4 +625,4 @@ If you prefer MathJax, create a blank `[site]/layouts/partials/math.html` and ad
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 ```
 
-This file will [take precedence over](https://gohugobrasil.netlify.app/themes/customizing/) the one Clarity provides and the site will load MathJax instead of KaTeX.
+This file will [take precedence over](https://gohugobrasil.netlify.app/themes/customizing/) the one All4forCloud provides and the site will load MathJax instead of KaTeX.
