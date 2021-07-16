@@ -1,7 +1,7 @@
 author = "Jakub Waliszewski"
 twitter = "@__JakobW__"
 largeTwitterCard = false # set to true if you want to show a large twitter card image. The default is a small twitter card image
-introDescription = "Azure Cloud Architect, Trainer, Enthusiast of Cloud and SmartHome."
+introDescription = "Azure Cloud Architect, Trainer, Enthusiast of Cloud and Automotive."
 # introURL = "about/" # set the url for the 'read more' button below the introDescription, or set to false to not show the button
 # description = "" # set your site's description here. will be use for home page content meta tags (seo). Alternatively set this description in your homepage content file i.e content/_index.md. Whatever is set in the latter will take precedence
 
@@ -34,7 +34,7 @@ mainSections = ["post"] # see config details here https://gohugo.io/functions/wh
 # center logo on navbar
 centerLogo = false # Set to "true" for centering or "false" for left aligned.
 
-logo = "logos/logo2.png"
+logo = "logos/logo.png"
 
 # Label Non inline images on an article body
 figurePositionShow = false # toggle on or off globally
@@ -53,7 +53,7 @@ mobileNavigation = "left" # if you prefer right change to 'right'
 enforceLightMode = false
 # enforceDarkMode = false
 
-# customize footer icon. see issue https://github.com/chipzoller/hugo-All4forCloud/issues/77
+# customize footer icon. see issue https://github.com/chipzoller/hugo-clarity/issues/77
 # footerLogo = "icons/copy.svg"
 
 # Text for the languages menu.
@@ -79,7 +79,7 @@ languageMenuName = "🌐"
 # notice of the footer.
 # since = 2016
 
-# tell hugo where you store your icons e.g favicons. This is useful if you're using an apache server and there are conflicts >> see issue https://github.com/chipzoller/hugo-All4forCloud/issues/74. If this is applicable to you, be sure to copy the contents of https://github.com/chipzoller/hugo-All4forCloud/tree/master/static/icons to your preferred icons directory 
+# tell hugo where you store your icons e.g favicons. This is useful if you're using an apache server and there are conflicts >> see issue https://github.com/chipzoller/hugo-clarity/issues/74. If this is applicable to you, be sure to copy the contents of https://github.com/chipzoller/hugo-clarity/tree/master/static/icons to your preferred icons directory 
 iconsDir = "icons/" # without a leading forward slash
 
 [plausible_analytics]

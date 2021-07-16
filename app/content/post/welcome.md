@@ -1,11 +1,11 @@
 +++
 author = "How2Code.info"
-title = "Welcome to your new static website"
+title = "My First Post"
 date = "2021-04-15"
 description = "An introduction to your new website"
 featured = true
 categories = [
-    "getting started"
+    "Welcome"
 ]
 tags = [
     "setup"
