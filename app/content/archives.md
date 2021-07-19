@@ -7,4 +7,4 @@ author = "Jakub Waliszewski"
 +++
 
 
-Powinno tutaj byc archiwum
+It's should be Archive
