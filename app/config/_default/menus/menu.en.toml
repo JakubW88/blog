@@ -3,17 +3,33 @@
   url = ""
   weight = -110
 
+  [[main]]
+  name = "Archive"
+  url = "archive/"
+  weight = -109
+
  [[main]]
-  name = "Conference"
+  name = "Cloud Events"
   url = "conference/"
   weight = -109
- 
 
 [[main]]
-  name = "Archives"
-  url = "archives/"
-  weight = -109
-
+  name = "Links"
+  identifier = "Links"
+  weight = -108
+[[main]]
+  parent = "Links"
+  name = "Azure Tips&Tricks"
+  url = "microsoft.github.io/AzureTipsAndTricks/"
+[[main]]
+  parent = "Links"
+  name = "Microsoft Learn"
+  url = "https://docs.microsoft.com/en-us/learn/"
+[[main]]
+  parent = "Links"
+  name = "Azure DC Infrastructure Map"
+  url = "https://infrastructuremap.microsoft.com"
+ 
 # Submenus are done this way: parent -> identifier
 #[[main]]
 #  name = "Links"
@@ -36,13 +52,23 @@
 # social menu links
 
 [[social]]
+  name = "facebook"
+  weight = 3
+  url = "https://www.facebook.com/kuba.waliszewski/"
+[[social]]
   name = "twitter"
-  weight = 1
+  weight = 2
   url = "https://twitter.com/__JakobW__"
 [[social]]
+  name = "instagram"
+  weight = 4
+  url = "https://www.instagram.com/__kuba_w__/"
+[[social]]
   name = "linkedin"
-  weight = 2
+  weight = 1
   url = "https://www.linkedin.com/in/jakub-waliszewski/"
+
+
 
 
 # other supported social links
