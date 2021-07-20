@@ -1,6 +1,6 @@
 # set `baseurl` to your root domain
 # if you set it to "/" share icons won't work properly on production
-baseurl = "https://nice-sand-09213ec03.azurestaticapps.net"  # Include trailing slash
+baseurl = "https://all4forcloud.azureedge.net"  # Include trailing slash
 title = "All4forCloud"
 author = "Jakub Waliszewski"
 copyright = "Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved."
