@@ -1,6 +1,6 @@
 +++
 title = "Archive"
-description = "Hugo, the world's fastest framework for building websites"
+description = "All4forCloud - Everything about the Microsoft Azure cloud and about me"
 date = "2021-07-16"
 aliases = ["about-us", "about-hugo", "contact"]
 author = "Jakub Waliszewski"
