@@ -15,7 +15,7 @@ figurePositionShow: true # Override global value for showing the figure label.
 categories:
   - Technology
 tags:
-  - DevOps
+  - Devops
   - CICD
   - Azure
 # comment: false # Disable comment if false.
