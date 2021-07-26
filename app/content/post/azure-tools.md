@@ -11,7 +11,7 @@ tags = [
     "Tools","Azure Extenstions"
 ]
 thumbnail = "images/tool.png"
-
+featureImage = "/images/tool.png"
 +++
 
 What are the best tools for working with Azure Cloud? In the article below I will present all the best tools available for working with Azure.

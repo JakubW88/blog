@@ -11,7 +11,7 @@ tags = [
     "DevOps","Pipeline","DevOps UI Classic"
 ]
 thumbnail = "images/devops.png"
-
+featureImage = "/images/devops.png"
 +++
 
 How to build a Azure DevOps Single release pipeline for multiple environments from one artifact.

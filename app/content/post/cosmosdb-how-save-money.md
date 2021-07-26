@@ -11,6 +11,9 @@ tags = [
     "CosmosDB","Azure Cost"
 ]
 thumbnail = "images/cosmos-cost.png"
+featureImage = "/images/cosmos-cost.png"
+
+
 
 +++
 
