@@ -1,6 +1,6 @@
 +++
 title = "Conference"
-description = "All4forCloud - Everything about the Microsoft Azure cloud and about me"
+description = "All4forCloud - Tips & Tricks about the Microsoft Azure Cloud and Me :)"
 date = "2021-07-16"
 aliases = ["conference", "about-jakub", "events"]
 author = "Jakub Waliszewski"

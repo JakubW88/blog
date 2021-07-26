@@ -1,6 +1,6 @@
 +++
 title = "About Me"
-description = "All4forCloud - Everything about the Microsoft Azure cloud and about me"
+description = "All4forCloud - Tips & Tricks about the Microsoft Azure Cloud and Me :)"
 date = "2019-02-28"
 aliases = ["about-us", "about-hugo", "contact"]
 author = "Jakub Waliszewski"
