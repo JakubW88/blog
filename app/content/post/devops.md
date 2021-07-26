@@ -5,10 +5,10 @@ date = "2021-07-26"
 description = "How to build a Azure DevOps Single release pipeline for multiple environments from one artifact."
 featured = true
 categories = [
-    "Azure DevoPS"
+    "HowToDO"
 ]
 tags = [
-    "DevOps","Pipeline"
+    "DevOps","Pipeline","DevOps UI Classic"
 ]
 thumbnail = "images/devops.png"
 
