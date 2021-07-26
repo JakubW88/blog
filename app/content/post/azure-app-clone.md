@@ -1,6 +1,6 @@
 +++
 title = "How to Clone App Service in Azure Portal"
-date = "2021-07-26"
+date = "2021-07-09"
 description = ""
 featured = true
 categories = [
