@@ -8,7 +8,7 @@ categories = [
     "Introduction"
 ]
 tags = [
-    "HelloWolrd"
+    "HelloWorld"
 ]
 thumbnail = "images/Azure2021.png"
 
