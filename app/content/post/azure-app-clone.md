@@ -4,10 +4,10 @@ date = "2021-07-26"
 description = ""
 featured = true
 categories = [
-    "Azure App Service"
+    "HowToDO"
 ]
 tags = [
-    "Azure Application"
+    "Azure Application","Azure App Service"
 ]
 thumbnail = "images/azure-app-clone.png"
 
