@@ -18,3 +18,5 @@ featureImage = "/images/cosmos-cost.png"
 +++
 
 In this post, I will show you few some simple, but very important tricks that must to be implementing to the Azure CosmosDB Database in order not to spend all the money on this service.
+
+                                                 DURING PREPERATION!!
