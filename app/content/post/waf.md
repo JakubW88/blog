@@ -16,3 +16,6 @@ featureImage = "/images/devops.png"
 +++
 
 How to check if our application has not been attacked? How to check if our Firewall worked and blocked relevant queries. In this post, I will show you how to use Azure Log Analytics to monitor our WAF Firewall.!!
+
+
+                                                 DURING PREPERATION!!
